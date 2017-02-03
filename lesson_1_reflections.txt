@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A comparação automatizada de dois arquivos facilita a busca de diferenças e, consequentemente, de erros.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A recuperação do historico de alterações pode previnir a perda de codigos.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Escolher os pontos de comitt premite maior controle nas alterações nas versoes commitadas. Porém, como depende do ususario comittar as mudanças, os commits podem ser muito longos ou muito curtos.
+Commits automaticos podem gerar arquivos desnecessário e irrelevantes.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Porque os arquivos podem estar logicamente interligados entao uma alteração em um arquivo pode motivar alterações em outros arquivos do mesmo projeto. Assim, quando for realizado o commit, todos os aquivos serão salvos.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log permite ver os commits realizados. 
+O Git diff premite visualizar as diferenças entre dois commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+Porque eh possível reverter as alterações para a versao anterior com rapidez e segurança
+
